@@ -1,0 +1,7 @@
+{ "title": "Mouse buttons 4,5 -> undo, redo",
+"rules": [ { "description": "Maps button 5 to redo, 4 to undo", 
+"manipulators": [ { "type": "basic", "from": { "pointing_button": "button4" }, 
+  "to": [ { "key_code": "z", "modifiers": "left_command" } ] }, 
+  { "type": "basic", "from": { "pointing_button": "button5" }, 
+    "to": [ { "key_code": "c", "modifiers": [ "left_command", "left_shift" ] } ] },
+ ] } ] }
